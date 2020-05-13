@@ -11,8 +11,8 @@ body{
     /* font-size: 200%; */
     text-shadow: 0.1em 0.1em 0.2em rgb(8, 84, 247);
     overflow: hidden;
-    margin-bottom: 2px;
-    font-family: "Elephant";
+    margin-bottom: 50px;
+    /* font-family: "Elephant"; */
 }
 
 .texto{
@@ -20,13 +20,18 @@ body{
 }
 
 .boton{
-    text-decoration: black;
+    text-decoration: none;
     color: aliceblue;
+    background-color: #3204ff;
+    border-radius: 20px;
     padding: 20px;
   }
   
 .boton:hover{
 color: #1883ba;
 background-color: #ffffff;
-border-radius: 20px;
+}
+
+.botones{
+    margin-bottom: 50px;
 }
