@@ -1,3 +1,32 @@
-#formulario{
-    size: 60px;
+body{
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgb(8, 84, 247);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(4, 4, 59) 35%, rgb(4, 35, 209) 100%);
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,200,1) 90%, rgba(0,164,255,1) 100%); */
+}
+
+.titulo{
+    color: aqua;
+    /* font-size: 200%; */
+    text-shadow: 0.1em 0.1em 0.2em rgb(8, 84, 247);
+    overflow: hidden;
+    margin-bottom: 2px;
+    font-family: "Elephant";
+}
+
+.texto{
+    color: azure;
+}
+
+.boton{
+    text-decoration: black;
+    color: aliceblue;
+    padding: 20px;
+  }
+  
+.boton:hover{
+color: #1883ba;
+background-color: #ffffff;
+border-radius: 20px;
 }
